@@ -11,11 +11,14 @@ import { HeaderMenu } from "./HeaderMenu";
 const items = [
   { name: "Home", path: "/", exact: true },
   { name: "About", path: "/about/", exact: true },
-  { name: "Blog", path: "/blog/", exact: false },
+  { name: "Docs", path: "/docs/", exact: false }
 ];
 
-const LinkStub = (props: any) =>
-  <div {...props} onClick={action(props.to.toString())} >{props.children}</div>;
+const LinkStub = (props: any) => (
+  <div {...props} onClick={action(props.to.toString())}>
+    {props.children}
+  </div>
+);
 const dispatchStub = (a: any) => action(a.type)(a) && a;
 
 storiesOf("HeaderMenu", module)
@@ -26,6 +29,12 @@ storiesOf("HeaderMenu", module)
     const inverted = boolean("inverted", false);
 
     return (
-      <HeaderMenu Link={LinkStub} items={items} pathname={pathname} inverted={inverted} dispatch={dispatchStub} />
+      <HeaderMenu
+        Link={LinkStub}
+        items={items}
+        pathname={pathname}
+        inverted={inverted}
+        dispatch={dispatchStub}
+      />
     );
   });

@@ -30,39 +30,39 @@ Run `npm run build` to create static site ready to host (`/public`)
 
 ## What's inside?
 
--   [ ] Gatsby 2.0 (alpha)
-    -   [x] sharp
-    -   [x] offline support
-    -   [ ] google analytics
-    -   [x] manifest
-    -   [x] typescript
-    -   [x] blog in markdown
--   [x] Best practices tools
-    -   [x] [Jest](https://facebook.github.io/jest/) / [Enzyme](http://airbnb.io/enzyme/)
-    -   [x] [Storybook](https://storybooks.js.org/)
-    -   [x] [Typescript](https://www.typescriptlang.org/) / [tslint](https://palantir.github.io/tslint/)
-    -   [x] [xo linter](https://github.com/sindresorhus/xo)
-    -   [x] [Remark-lint](https://github.com/wooorm/remark-lint)
-    -   [x] [Husky](https://github.com/typicode/husky) & [lint-staged](https://github.com/okonet/lint-staged) for autofix each commit
-    -   [x] Travis/AppVeyor config (unix-osx-windows CI)
-    -   [x] Code climate config
--   [x] SEO
-    -   [x] [Helmet](https://github.com/nfl/react-helmet)
--   [x] [Semantic-ui](http://react.semantic-ui.com) for styling
--   [x] Lazyboy tools
-    -   [x] [plop](https://github.com/amwmedia/plop) templates -> `npm run generate`
+- [ ] Gatsby 2.0 (alpha)
+  - [x] sharp
+  - [x] offline support
+  - [ ] google analytics
+  - [x] manifest
+  - [x] typescript
+  - [x] doc in markdown
+- [x] Best practices tools
+  - [x] [Jest](https://facebook.github.io/jest/) / [Enzyme](http://airbnb.io/enzyme/)
+  - [x] [Storybook](https://storybooks.js.org/)
+  - [x] [Typescript](https://www.typescriptlang.org/) / [tslint](https://palantir.github.io/tslint/)
+  - [x] [xo linter](https://github.com/sindresorhus/xo)
+  - [x] [Remark-lint](https://github.com/wooorm/remark-lint)
+  - [x] [Husky](https://github.com/typicode/husky) & [lint-staged](https://github.com/okonet/lint-staged) for autofix each commit
+  - [x] Travis/AppVeyor config (unix-osx-windows CI)
+  - [x] Code climate config
+- [x] SEO
+  - [x] [Helmet](https://github.com/nfl/react-helmet)
+- [x] [Semantic-ui](http://react.semantic-ui.com) for styling
+- [x] Lazyboy tools
+  - [x] [plop](https://github.com/amwmedia/plop) templates -> `npm run generate`
 
 ## Files structure
 
      .
      ├── data                          // website data (included into graphQL)
-     │   ├── author.json               // list of blog authors
+     │   ├── author.json               // list of doc authors
      │   ├── avatars                   // authors avatars
-     │   └── blog                      // all blog data (posts, images)
+     │   └── docs                      // all docs data (posts, images)
      ├── gatsby-config.js              // gatsby configuration
      ├── gatsby-node.js                // gatsby node hooks
      ├── generators                    // generators (`npm run generate`)
-     │   ├── blog-post-generator.js    // `blog post` generator
+     │   ├── doc-generator.js          // `doc` generator
      │   ├── component-generator.js    // `component` generator
      │   ├── page-generator.js         // `page` generator
      │   ├── plopfile.js               // generators entry
@@ -90,7 +90,7 @@ Run `npm run build` to create static site ready to host (`/public`)
 ## Plop generators - `npm run generate`
 
 To avoid any boring copy/paste, this starter-kit have many generators to permit
-simple bootstrap of current file pattern (eg. components/pages/blog posts). e.g. to add a new blog post first add the authors to data/authors.json and add authors' images to the data/avatars folder. Next execute 'npm run generate' and select 'Blog post'. Follow the prompts for a new post. Each blog post requires an image be added to the /data/blog/<your new post> folder prior to running 'gatsby develop'.
+simple bootstrap of current file pattern (eg. components/pages/docs). e.g. to add a new doc first add the authors to data/authors.json and add authors' images to the data/avatars folder. Next execute 'npm run generate' and select 'Doc'. Follow the prompts for a new post. Each doc requires an image be added to the /data/docs/<your new post> folder prior to running 'gatsby develop'.
 
 You can add/delete/modify any generators into `/generators` folder.
 

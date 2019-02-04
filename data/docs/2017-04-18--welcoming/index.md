@@ -1,8 +1,8 @@
 ---
 title: Welcoming
-createdDate: '2017-04-18'
-updatedDate: '2017-05-06'
-author: Fabien BERNARD
+createdDate: "2017-04-18"
+updatedDate: "2017-05-06"
+author: Tom RIDD
 tags:
   - starter
   - gatsby

@@ -10,7 +10,7 @@ configure({ adapter: new Adapter() });
 const items = [
   { name: "Home", path: "/", exact: true },
   { name: "About", path: "/about/", exact: true },
-  { name: "Blog", path: "/blog/", exact: false },
+  { name: "Documentation", path: "/docs/", exact: false }
 ];
 
 const LinkStub = (props: any) => <div {...props} />;
@@ -24,7 +24,7 @@ describe("HeaderMenu component", () => {
         items={items}
         pathname="/plop"
         dispatch={dispatchStub}
-      />,
+      />
     );
     expect(wrapper.find({ active: true }).length).toBe(0);
   });
@@ -35,21 +35,22 @@ describe("HeaderMenu component", () => {
         Link={LinkStub}
         items={items}
         pathname="/about/"
-        dispatch={dispatchStub} />,
+        dispatch={dispatchStub}
+      />
     );
     expect(wrapper.find({ name: "About" }).prop("active")).toBeTruthy();
   });
 
-  it("should have blog as active (match not exact)", () => {
+  it("should have documentation as active (match not exact)", () => {
     const wrapper = shallow(
       <HeaderMenu
         Link={LinkStub}
         items={items}
-        pathname="/blog/toto"
+        pathname="/docs/toto"
         dispatch={dispatchStub}
-      />,
+      />
     );
-    expect(wrapper.find({ name: "Blog" }).prop("active")).toBeTruthy();
+    expect(wrapper.find({ name: "Documentation" }).prop("active")).toBeTruthy();
   });
 
   it("should have inverted style", () => {
@@ -57,10 +58,10 @@ describe("HeaderMenu component", () => {
       <HeaderMenu
         Link={LinkStub}
         items={items}
-        pathname="/blog/toto"
+        pathname="/docs/toto"
         dispatch={dispatchStub}
         inverted
-      />,
+      />
     );
     expect(wrapper.find({ inverted: true }).length).toBe(1);
   });
@@ -72,10 +73,10 @@ describe("HeaderMenu component", () => {
         Link={LinkStub}
         items={items}
         pathname=""
-        dispatch={dispatchMock} />,
+        dispatch={dispatchMock}
+      />
     );
     wrapper.find(".mobile .only").simulate("click");
     expect(dispatchMock.mock.calls.length).toBe(1);
   });
-
 });

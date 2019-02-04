@@ -136,7 +136,7 @@ initialize {
           "next": Object {
             "attribs": Object {
               "class": "item",
-              "to": "/blog/",
+              "to": "/docs/",
             },
             "children": Array [
               Object {
@@ -299,7 +299,7 @@ initialize {
         "next": Object {
           "attribs": Object {
             "class": "item",
-            "to": "/blog/",
+            "to": "/docs/",
           },
           "children": Array [
             Object {
@@ -462,7 +462,7 @@ initialize {
       Object {
         "attribs": Object {
           "class": "item",
-          "to": "/blog/",
+          "to": "/docs/",
         },
         "children": Array [
           Object {

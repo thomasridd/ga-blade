@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BlogPagination component should have first link active if no match 1`] = `
+exports[`DocsPagination component should have first link active if no match 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
@@ -11,7 +11,7 @@ initialize {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
-          "to": "/blog/page/1/",
+          "to": "/docs/page/1/",
         },
         "children": Array [
           Object {
@@ -28,7 +28,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/2/",
+            "to": "/docs/page/2/",
           },
           "children": Array [
             Object {
@@ -45,7 +45,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -77,7 +77,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/10/",
+                  "to": "/docs/page/10/",
                 },
                 "children": Array [
                   Object {
@@ -161,7 +161,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/2/",
+          "to": "/docs/page/2/",
         },
         "children": Array [
           Object {
@@ -178,7 +178,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -210,7 +210,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/10/",
+                "to": "/docs/page/10/",
               },
               "children": Array [
                 Object {
@@ -267,7 +267,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/1/",
+            "to": "/docs/page/1/",
           },
           "children": Array [
             Object {
@@ -311,7 +311,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/3/",
+          "to": "/docs/page/3/",
         },
         "children": Array [
           Object {
@@ -343,7 +343,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/10/",
+              "to": "/docs/page/10/",
             },
             "children": Array [
               Object {
@@ -386,7 +386,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/2/",
+            "to": "/docs/page/2/",
           },
           "children": Array [
             Object {
@@ -405,7 +405,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/1/",
+              "to": "/docs/page/1/",
             },
             "children": Array [
               Object {
@@ -476,7 +476,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/10/",
+            "to": "/docs/page/10/",
           },
           "children": Array [
             Object {
@@ -509,7 +509,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -528,7 +528,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/2/",
+              "to": "/docs/page/2/",
             },
             "children": Array [
               Object {
@@ -547,7 +547,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/1/",
+                "to": "/docs/page/1/",
               },
               "children": Array [
                 Object {
@@ -611,7 +611,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/10/",
+          "to": "/docs/page/10/",
         },
         "children": Array [
           Object {
@@ -647,7 +647,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -666,7 +666,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/2/",
+                "to": "/docs/page/2/",
               },
               "children": Array [
                 Object {
@@ -685,7 +685,7 @@ initialize {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/1/",
+                  "to": "/docs/page/1/",
                 },
                 "children": Array [
                   Object {
@@ -796,7 +796,7 @@ initialize {
 }
 `;
 
-exports[`BlogPagination component should render correctly 5 pages 1`] = `
+exports[`DocsPagination component should render correctly 5 pages 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
@@ -807,7 +807,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/1/",
+          "to": "/docs/page/1/",
         },
         "children": Array [
           Object {
@@ -824,7 +824,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/2/",
+            "to": "/docs/page/2/",
           },
           "children": Array [
             Object {
@@ -841,7 +841,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -858,7 +858,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/4/",
+                "to": "/docs/page/4/",
               },
               "children": Array [
                 Object {
@@ -875,7 +875,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/5/",
+                  "to": "/docs/page/5/",
                 },
                 "children": Array [
                   Object {
@@ -963,7 +963,7 @@ initialize {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
-          "to": "/blog/page/2/",
+          "to": "/docs/page/2/",
         },
         "children": Array [
           Object {
@@ -980,7 +980,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -997,7 +997,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/4/",
+              "to": "/docs/page/4/",
             },
             "children": Array [
               Object {
@@ -1014,7 +1014,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/5/",
+                "to": "/docs/page/5/",
               },
               "children": Array [
                 Object {
@@ -1075,7 +1075,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/1/",
+            "to": "/docs/page/1/",
           },
           "children": Array [
             Object {
@@ -1119,7 +1119,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/3/",
+          "to": "/docs/page/3/",
         },
         "children": Array [
           Object {
@@ -1136,7 +1136,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -1153,7 +1153,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/5/",
+              "to": "/docs/page/5/",
             },
             "children": Array [
               Object {
@@ -1200,7 +1200,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/2/",
+            "to": "/docs/page/2/",
           },
           "children": Array [
             Object {
@@ -1219,7 +1219,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/1/",
+              "to": "/docs/page/1/",
             },
             "children": Array [
               Object {
@@ -1275,7 +1275,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/4/",
+          "to": "/docs/page/4/",
         },
         "children": Array [
           Object {
@@ -1292,7 +1292,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/5/",
+            "to": "/docs/page/5/",
           },
           "children": Array [
             Object {
@@ -1325,7 +1325,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -1344,7 +1344,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/2/",
+              "to": "/docs/page/2/",
             },
             "children": Array [
               Object {
@@ -1363,7 +1363,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/1/",
+                "to": "/docs/page/1/",
               },
               "children": Array [
                 Object {
@@ -1431,7 +1431,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/5/",
+          "to": "/docs/page/5/",
         },
         "children": Array [
           Object {
@@ -1450,7 +1450,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -1469,7 +1469,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -1488,7 +1488,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/2/",
+                "to": "/docs/page/2/",
               },
               "children": Array [
                 Object {
@@ -1507,7 +1507,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/1/",
+                  "to": "/docs/page/1/",
                 },
                 "children": Array [
                   Object {
@@ -1622,7 +1622,7 @@ initialize {
 }
 `;
 
-exports[`BlogPagination component should render correctly 10 pages 1`] = `
+exports[`DocsPagination component should render correctly 10 pages 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
@@ -1633,7 +1633,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/1/",
+          "to": "/docs/page/1/",
         },
         "children": Array [
           Object {
@@ -1665,7 +1665,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -1682,7 +1682,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/4/",
+                "to": "/docs/page/4/",
               },
               "children": Array [
                 Object {
@@ -1699,7 +1699,7 @@ initialize {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/5/",
+                  "to": "/docs/page/5/",
                 },
                 "children": Array [
                   Object {
@@ -1716,7 +1716,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/6/",
+                    "to": "/docs/page/6/",
                   },
                   "children": Array [
                     Object {
@@ -1733,7 +1733,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/7/",
+                      "to": "/docs/page/7/",
                     },
                     "children": Array [
                       Object {
@@ -1765,7 +1765,7 @@ initialize {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
-                          "to": "/blog/page/10/",
+                          "to": "/docs/page/10/",
                         },
                         "children": Array [
                           Object {
@@ -1916,7 +1916,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -1933,7 +1933,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/4/",
+              "to": "/docs/page/4/",
             },
             "children": Array [
               Object {
@@ -1950,7 +1950,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/5/",
+                "to": "/docs/page/5/",
               },
               "children": Array [
                 Object {
@@ -1967,7 +1967,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/6/",
+                  "to": "/docs/page/6/",
                 },
                 "children": Array [
                   Object {
@@ -1984,7 +1984,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/7/",
+                    "to": "/docs/page/7/",
                   },
                   "children": Array [
                     Object {
@@ -2016,7 +2016,7 @@ initialize {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
-                        "to": "/blog/page/10/",
+                        "to": "/docs/page/10/",
                       },
                       "children": Array [
                         Object {
@@ -2129,7 +2129,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/1/",
+            "to": "/docs/page/1/",
           },
           "children": Array [
             Object {
@@ -2169,7 +2169,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/3/",
+          "to": "/docs/page/3/",
         },
         "children": Array [
           Object {
@@ -2186,7 +2186,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -2203,7 +2203,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/5/",
+              "to": "/docs/page/5/",
             },
             "children": Array [
               Object {
@@ -2220,7 +2220,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/6/",
+                "to": "/docs/page/6/",
               },
               "children": Array [
                 Object {
@@ -2237,7 +2237,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/7/",
+                  "to": "/docs/page/7/",
                 },
                 "children": Array [
                   Object {
@@ -2269,7 +2269,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/10/",
+                      "to": "/docs/page/10/",
                     },
                     "children": Array [
                       Object {
@@ -2385,7 +2385,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/1/",
+              "to": "/docs/page/1/",
             },
             "children": Array [
               Object {
@@ -2437,7 +2437,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/4/",
+          "to": "/docs/page/4/",
         },
         "children": Array [
           Object {
@@ -2454,7 +2454,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/5/",
+            "to": "/docs/page/5/",
           },
           "children": Array [
             Object {
@@ -2471,7 +2471,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/6/",
+              "to": "/docs/page/6/",
             },
             "children": Array [
               Object {
@@ -2488,7 +2488,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/7/",
+                "to": "/docs/page/7/",
               },
               "children": Array [
                 Object {
@@ -2520,7 +2520,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/10/",
+                    "to": "/docs/page/10/",
                   },
                   "children": Array [
                     Object {
@@ -2605,7 +2605,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -2641,7 +2641,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/1/",
+                "to": "/docs/page/1/",
               },
               "children": Array [
                 Object {
@@ -2705,7 +2705,7 @@ initialize {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
-          "to": "/blog/page/5/",
+          "to": "/docs/page/5/",
         },
         "children": Array [
           Object {
@@ -2722,7 +2722,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/6/",
+            "to": "/docs/page/6/",
           },
           "children": Array [
             Object {
@@ -2739,7 +2739,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/7/",
+              "to": "/docs/page/7/",
             },
             "children": Array [
               Object {
@@ -2771,7 +2771,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/10/",
+                  "to": "/docs/page/10/",
                 },
                 "children": Array [
                   Object {
@@ -2842,7 +2842,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -2861,7 +2861,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -2897,7 +2897,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/1/",
+                  "to": "/docs/page/1/",
                 },
                 "children": Array [
                   Object {
@@ -2973,7 +2973,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/6/",
+          "to": "/docs/page/6/",
         },
         "children": Array [
           Object {
@@ -2990,7 +2990,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/7/",
+            "to": "/docs/page/7/",
           },
           "children": Array [
             Object {
@@ -3022,7 +3022,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/10/",
+                "to": "/docs/page/10/",
               },
               "children": Array [
                 Object {
@@ -3079,7 +3079,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/5/",
+            "to": "/docs/page/5/",
           },
           "children": Array [
             Object {
@@ -3098,7 +3098,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/4/",
+              "to": "/docs/page/4/",
             },
             "children": Array [
               Object {
@@ -3117,7 +3117,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/3/",
+                "to": "/docs/page/3/",
               },
               "children": Array [
                 Object {
@@ -3153,7 +3153,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/1/",
+                    "to": "/docs/page/1/",
                   },
                   "children": Array [
                     Object {
@@ -3241,7 +3241,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/7/",
+          "to": "/docs/page/7/",
         },
         "children": Array [
           Object {
@@ -3273,7 +3273,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/10/",
+              "to": "/docs/page/10/",
             },
             "children": Array [
               Object {
@@ -3316,7 +3316,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/6/",
+            "to": "/docs/page/6/",
           },
           "children": Array [
             Object {
@@ -3335,7 +3335,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/5/",
+              "to": "/docs/page/5/",
             },
             "children": Array [
               Object {
@@ -3354,7 +3354,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/4/",
+                "to": "/docs/page/4/",
               },
               "children": Array [
                 Object {
@@ -3373,7 +3373,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/3/",
+                  "to": "/docs/page/3/",
                 },
                 "children": Array [
                   Object {
@@ -3409,7 +3409,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/1/",
+                      "to": "/docs/page/1/",
                     },
                     "children": Array [
                       Object {
@@ -3524,7 +3524,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/10/",
+            "to": "/docs/page/10/",
           },
           "children": Array [
             Object {
@@ -3557,7 +3557,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/7/",
+            "to": "/docs/page/7/",
           },
           "children": Array [
             Object {
@@ -3576,7 +3576,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/6/",
+              "to": "/docs/page/6/",
             },
             "children": Array [
               Object {
@@ -3595,7 +3595,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/5/",
+                "to": "/docs/page/5/",
               },
               "children": Array [
                 Object {
@@ -3614,7 +3614,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/4/",
+                  "to": "/docs/page/4/",
                 },
                 "children": Array [
                   Object {
@@ -3633,7 +3633,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/3/",
+                    "to": "/docs/page/3/",
                   },
                   "children": Array [
                     Object {
@@ -3669,7 +3669,7 @@ initialize {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
-                        "to": "/blog/page/1/",
+                        "to": "/docs/page/1/",
                       },
                       "children": Array [
                         Object {
@@ -3777,7 +3777,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/10/",
+          "to": "/docs/page/10/",
         },
         "children": Array [
           Object {
@@ -3813,7 +3813,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/7/",
+              "to": "/docs/page/7/",
             },
             "children": Array [
               Object {
@@ -3832,7 +3832,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/6/",
+                "to": "/docs/page/6/",
               },
               "children": Array [
                 Object {
@@ -3851,7 +3851,7 @@ initialize {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/5/",
+                  "to": "/docs/page/5/",
                 },
                 "children": Array [
                   Object {
@@ -3870,7 +3870,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/4/",
+                    "to": "/docs/page/4/",
                   },
                   "children": Array [
                     Object {
@@ -3889,7 +3889,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/3/",
+                      "to": "/docs/page/3/",
                     },
                     "children": Array [
                       Object {
@@ -3925,7 +3925,7 @@ initialize {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
-                          "to": "/blog/page/1/",
+                          "to": "/docs/page/1/",
                         },
                         "children": Array [
                           Object {
@@ -4080,7 +4080,7 @@ initialize {
 }
 `;
 
-exports[`BlogPagination component should render correctly 20 pages 1`] = `
+exports[`DocsPagination component should render correctly 20 pages 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
@@ -4091,7 +4091,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/1/",
+          "to": "/docs/page/1/",
         },
         "children": Array [
           Object {
@@ -4123,7 +4123,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -4140,7 +4140,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/4/",
+                "to": "/docs/page/4/",
               },
               "children": Array [
                 Object {
@@ -4157,7 +4157,7 @@ initialize {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/5/",
+                  "to": "/docs/page/5/",
                 },
                 "children": Array [
                   Object {
@@ -4174,7 +4174,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/6/",
+                    "to": "/docs/page/6/",
                   },
                   "children": Array [
                     Object {
@@ -4191,7 +4191,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/7/",
+                      "to": "/docs/page/7/",
                     },
                     "children": Array [
                       Object {
@@ -4223,7 +4223,7 @@ initialize {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
-                          "to": "/blog/page/20/",
+                          "to": "/docs/page/20/",
                         },
                         "children": Array [
                           Object {
@@ -4374,7 +4374,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -4391,7 +4391,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/4/",
+              "to": "/docs/page/4/",
             },
             "children": Array [
               Object {
@@ -4408,7 +4408,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/5/",
+                "to": "/docs/page/5/",
               },
               "children": Array [
                 Object {
@@ -4425,7 +4425,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/6/",
+                  "to": "/docs/page/6/",
                 },
                 "children": Array [
                   Object {
@@ -4442,7 +4442,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/7/",
+                    "to": "/docs/page/7/",
                   },
                   "children": Array [
                     Object {
@@ -4474,7 +4474,7 @@ initialize {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
-                        "to": "/blog/page/20/",
+                        "to": "/docs/page/20/",
                       },
                       "children": Array [
                         Object {
@@ -4587,7 +4587,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/1/",
+            "to": "/docs/page/1/",
           },
           "children": Array [
             Object {
@@ -4627,7 +4627,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/3/",
+          "to": "/docs/page/3/",
         },
         "children": Array [
           Object {
@@ -4644,7 +4644,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -4661,7 +4661,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/5/",
+              "to": "/docs/page/5/",
             },
             "children": Array [
               Object {
@@ -4678,7 +4678,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/6/",
+                "to": "/docs/page/6/",
               },
               "children": Array [
                 Object {
@@ -4695,7 +4695,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/7/",
+                  "to": "/docs/page/7/",
                 },
                 "children": Array [
                   Object {
@@ -4727,7 +4727,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/20/",
+                      "to": "/docs/page/20/",
                     },
                     "children": Array [
                       Object {
@@ -4843,7 +4843,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/1/",
+              "to": "/docs/page/1/",
             },
             "children": Array [
               Object {
@@ -4895,7 +4895,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/4/",
+          "to": "/docs/page/4/",
         },
         "children": Array [
           Object {
@@ -4912,7 +4912,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/5/",
+            "to": "/docs/page/5/",
           },
           "children": Array [
             Object {
@@ -4929,7 +4929,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/6/",
+              "to": "/docs/page/6/",
             },
             "children": Array [
               Object {
@@ -4946,7 +4946,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/7/",
+                "to": "/docs/page/7/",
               },
               "children": Array [
                 Object {
@@ -4978,7 +4978,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/20/",
+                    "to": "/docs/page/20/",
                   },
                   "children": Array [
                     Object {
@@ -5063,7 +5063,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/3/",
+            "to": "/docs/page/3/",
           },
           "children": Array [
             Object {
@@ -5099,7 +5099,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/1/",
+                "to": "/docs/page/1/",
               },
               "children": Array [
                 Object {
@@ -5163,7 +5163,7 @@ initialize {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
-          "to": "/blog/page/5/",
+          "to": "/docs/page/5/",
         },
         "children": Array [
           Object {
@@ -5180,7 +5180,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/6/",
+            "to": "/docs/page/6/",
           },
           "children": Array [
             Object {
@@ -5197,7 +5197,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/7/",
+              "to": "/docs/page/7/",
             },
             "children": Array [
               Object {
@@ -5229,7 +5229,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/20/",
+                  "to": "/docs/page/20/",
                 },
                 "children": Array [
                   Object {
@@ -5300,7 +5300,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/4/",
+            "to": "/docs/page/4/",
           },
           "children": Array [
             Object {
@@ -5319,7 +5319,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/3/",
+              "to": "/docs/page/3/",
             },
             "children": Array [
               Object {
@@ -5355,7 +5355,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/1/",
+                  "to": "/docs/page/1/",
                 },
                 "children": Array [
                   Object {
@@ -5431,7 +5431,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/6/",
+          "to": "/docs/page/6/",
         },
         "children": Array [
           Object {
@@ -5448,7 +5448,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/7/",
+            "to": "/docs/page/7/",
           },
           "children": Array [
             Object {
@@ -5480,7 +5480,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/20/",
+                "to": "/docs/page/20/",
               },
               "children": Array [
                 Object {
@@ -5537,7 +5537,7 @@ initialize {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
-            "to": "/blog/page/5/",
+            "to": "/docs/page/5/",
           },
           "children": Array [
             Object {
@@ -5556,7 +5556,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/4/",
+              "to": "/docs/page/4/",
             },
             "children": Array [
               Object {
@@ -5575,7 +5575,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/3/",
+                "to": "/docs/page/3/",
               },
               "children": Array [
                 Object {
@@ -5611,7 +5611,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/1/",
+                    "to": "/docs/page/1/",
                   },
                   "children": Array [
                     Object {
@@ -5699,7 +5699,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/7/",
+          "to": "/docs/page/7/",
         },
         "children": Array [
           Object {
@@ -5731,7 +5731,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/20/",
+              "to": "/docs/page/20/",
             },
             "children": Array [
               Object {
@@ -5774,7 +5774,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/6/",
+            "to": "/docs/page/6/",
           },
           "children": Array [
             Object {
@@ -5793,7 +5793,7 @@ initialize {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
-              "to": "/blog/page/5/",
+              "to": "/docs/page/5/",
             },
             "children": Array [
               Object {
@@ -5812,7 +5812,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/4/",
+                "to": "/docs/page/4/",
               },
               "children": Array [
                 Object {
@@ -5831,7 +5831,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/3/",
+                  "to": "/docs/page/3/",
                 },
                 "children": Array [
                   Object {
@@ -5867,7 +5867,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/1/",
+                      "to": "/docs/page/1/",
                     },
                     "children": Array [
                       Object {
@@ -5982,7 +5982,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/20/",
+            "to": "/docs/page/20/",
           },
           "children": Array [
             Object {
@@ -6015,7 +6015,7 @@ initialize {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
-            "to": "/blog/page/7/",
+            "to": "/docs/page/7/",
           },
           "children": Array [
             Object {
@@ -6034,7 +6034,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/6/",
+              "to": "/docs/page/6/",
             },
             "children": Array [
               Object {
@@ -6053,7 +6053,7 @@ initialize {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/5/",
+                "to": "/docs/page/5/",
               },
               "children": Array [
                 Object {
@@ -6072,7 +6072,7 @@ initialize {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/4/",
+                  "to": "/docs/page/4/",
                 },
                 "children": Array [
                   Object {
@@ -6091,7 +6091,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/3/",
+                    "to": "/docs/page/3/",
                   },
                   "children": Array [
                     Object {
@@ -6127,7 +6127,7 @@ initialize {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
-                        "to": "/blog/page/1/",
+                        "to": "/docs/page/1/",
                       },
                       "children": Array [
                         Object {
@@ -6235,7 +6235,7 @@ initialize {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
-          "to": "/blog/page/20/",
+          "to": "/docs/page/20/",
         },
         "children": Array [
           Object {
@@ -6271,7 +6271,7 @@ initialize {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
-              "to": "/blog/page/7/",
+              "to": "/docs/page/7/",
             },
             "children": Array [
               Object {
@@ -6290,7 +6290,7 @@ initialize {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
-                "to": "/blog/page/6/",
+                "to": "/docs/page/6/",
               },
               "children": Array [
                 Object {
@@ -6309,7 +6309,7 @@ initialize {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
-                  "to": "/blog/page/5/",
+                  "to": "/docs/page/5/",
                 },
                 "children": Array [
                   Object {
@@ -6328,7 +6328,7 @@ initialize {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
-                    "to": "/blog/page/4/",
+                    "to": "/docs/page/4/",
                   },
                   "children": Array [
                     Object {
@@ -6347,7 +6347,7 @@ initialize {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
-                      "to": "/blog/page/3/",
+                      "to": "/docs/page/3/",
                     },
                     "children": Array [
                       Object {
@@ -6383,7 +6383,7 @@ initialize {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
-                          "to": "/blog/page/1/",
+                          "to": "/docs/page/1/",
                         },
                         "children": Array [
                           Object {
@@ -6538,7 +6538,7 @@ initialize {
 }
 `;
 
-exports[`BlogPagination component should render nothing if only 1 page 1`] = `
+exports[`DocsPagination component should render nothing if only 1 page 1`] = `
 initialize {
   "options": Object {
     "decodeEntities": true,

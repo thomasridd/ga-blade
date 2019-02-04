@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 export default Docs;
 
 export const pageQuery = graphql`
-  query TemplateTagPage($tag: String) {
+  query TemplateDocsPage($skip: Int) {
     # Get tags
     tags: allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
       group(field: frontmatter___tags) {
@@ -18,9 +18,11 @@ export const pageQuery = graphql`
     posts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___updatedDate] }
       filter: {
-        frontmatter: { draft: { ne: true }, tags: { in: [$tag] } }
+        frontmatter: { draft: { ne: true } }
         fileAbsolutePath: { regex: "/docs/" }
       }
+      limit: 10
+      skip: $skip
     ) {
       totalCount
       edges {

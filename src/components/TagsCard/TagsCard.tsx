@@ -13,18 +13,18 @@ export default (props: TagsCardProps) => {
   return (
     <Card>
       <Card.Content>
-        <Card.Header>
-          Tags
-        </Card.Header>
+        <Card.Header>Tags</Card.Header>
       </Card.Content>
       <Card.Content>
         <List>
-          {props.tags.map((tag) => {
+          {props.tags.map(tag => {
             const isActive = tag.fieldValue === props.tag;
             const activeStyle = {
-              fontWeight: "700",
+              fontWeight: "700"
             };
-            const tagLink = isActive ? `/blog` : `/blog/tags/${tag.fieldValue}/`;
+            const tagLink = isActive
+              ? `/docs`
+              : `/docs/tags/${tag.fieldValue}/`;
             return (
               <List.Item as="span" key={tag.fieldValue}>
                 <List.Icon name="tag" color={isActive ? "blue" : null} />

@@ -12,8 +12,8 @@ import { store } from "../store";
 
 export const menuItems = [
   { name: "Home", path: "/", exact: true, icon: "home", inverted: true },
-  { name: "About", path: "/about/", exact: true, icon: "info circle" }
-  // { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" }
+  { name: "About", path: "/about/", exact: true, icon: "info circle" },
+  { name: "Documentation", path: "/docs/", exact: false, icon: "newspaper" }
 ];
 
 export interface LayoutProps {
